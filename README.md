@@ -4,7 +4,7 @@ Ejemplo de uso de la librería TestFX para realizar pruebas E2E en un proyecto M
 
 El principal problema para conseguir ejecutar los tests es configurar las librerías necesarias. Partiendo de un proyecto JavaFX existente hay que añadir al fichero POM:
 
-1. Las librerías. (En nuestro caso se usa Junit 5. En caso contrario hay que cambiarlo.)
+1. Las librerías. (En nuestro caso se usa Junit 5. En caso contrario habría que cambiarlo.)
 
          <dependency>
             <groupId>org.testfx</groupId>
