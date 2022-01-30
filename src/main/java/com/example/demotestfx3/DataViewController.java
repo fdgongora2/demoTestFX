@@ -2,7 +2,7 @@ package com.example.demotestfx3;
 
 import javafx.stage.Stage;
 
-public class DataView {
+public class DataViewController {
     private Stage stage ;
 
     public void initialize() {

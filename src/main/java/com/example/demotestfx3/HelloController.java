@@ -31,6 +31,7 @@ public class HelloController {
         try {
             root = FXMLLoader.load(HelloApplication.class.getResource("data-view.fxml"));
             Stage stage = new Stage();
+            stage.setTitle("Nueva ventana");
             stage.setScene(new Scene(root, 450, 450));
             stage.show();
             // Hide this current window (if this is what you want)
