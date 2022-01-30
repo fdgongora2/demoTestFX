@@ -26,7 +26,7 @@ El principal problema para conseguir ejecutar los tests es configurar las librer
             <scope>test</scope>
         </dependency>
 
-2. Añadir una opción para la ejecución de los test utilizando el plugin Surefire.
+Con mi configuración ha sido necesario el añadir una opción para la ejecución de los test utilizando el plugin Surefire. En caso de no hacerlo se produce un error al ejecutar el test.
 
              <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
